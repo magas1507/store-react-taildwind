@@ -1,13 +1,3 @@
-import Layout from "../../Components/Layout";
-import Card from "../../Components/Card";
-function Home() {
-
-  return (    
-    <Layout>
-      Home
-      <Card/>
-    </Layout>    
-  )
-}
-
+import { data } from "autoprefixer";
+import { Home } from "./Home";
 export default Home;
